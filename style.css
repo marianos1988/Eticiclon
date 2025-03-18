@@ -199,12 +199,16 @@ box-shadow: 15px 15px 40px #8f8d8d, -15px -15px 40px #ccc;
 
 	background-color: rgb(116, 134, 216);
 	text-decoration: none;
-	color: #fff;
 	transition: all .4s ease-in;
 }
 
+.js-desktop-nav-item.desktop-nav-item.js-nav-main-item a {
+	color: #fff !important;
+
+}
+
 .js-desktop-nav-item.desktop-nav-item.js-nav-main-item.current {
-	background-color: rgba(221,177,32,1) !important;
+	background-color: #ff0505 !important;
 	border: 2px #858585 solid !important;
 
 }
