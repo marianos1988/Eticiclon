@@ -123,7 +123,7 @@ header .row-fluid.search-logo-cart-container {
 	}
 
 	.logo-img-container.mobile-logo-home.text-center-xs a img {
-		transform: scale(2);
+		transform: scale(1.8) !important;
 	}
 
 	header .row-fluid.search-logo-cart-container {
@@ -133,7 +133,7 @@ header .row-fluid.search-logo-cart-container {
 
 
 .logo-img-container.mobile-logo-home.text-center-xs a img {
-	transform: scale(1);
+	transform: scale(1.8);
 }
 
 .js-toggle-mobile-search.js-toggle-mobile-search-open.mobile-search-btn.text-center.d-inline-block.h5 {
@@ -304,7 +304,77 @@ box-shadow: 15px 15px 40px #8f8d8d, -15px -15px 40px #ccc;
 
 }
 
+.js-megamenu.megamenu {
+	width: 100%;
+}
 
+.megamenu-list.container.list-subitems{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+	background: linear-gradient(66deg, #1e1e1e, #2f2e2e, #1e1e1e, #2f2e2e, #1e1e1e);
+	padding: 14px 0px;
+	font-size: 10px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	text-decoration: none;
+}
+
+.megamenu-list.container.list-subitems li {
+	background-color: inherit;
+	margin: 0px 10px;
+	font-size: 11px;
+}
+
+.megamenu-list.container.list-subitems li a:hover {
+	color: #ff0505;
+	transition: all .4s ease-in;
+
+}
+
+
+/*submenu version mobile */
+
+.js-categories-mobile-container .modal-xs.mobile-nav-categories-container {
+	background: rgb(255,0,0);
+    background: linear-gradient(0deg, rgb(32, 59, 180) 7%, rgba(0,0,0,1) 57%);
+}
+
+.modal-xs.mobile-nav-categories-container li .modal-xs-list-item.darker {
+	color: #fff !important;
+	text-decoration: none;
+}
+
+.modal-xs.mobile-nav-categories-container li .modal-xs-list-item.darker:hover {
+	color: #ff0505 !important;
+	transition: all .4s ease-in;
+}
+
+.modal-xs.mobile-nav-categories-container .mobile-nav-list-item a {
+	color: #fff !important;
+	text-decoration: none;
+}
+
+
+.modal-xs.mobile-nav-categories-container .mobile-nav-list-item a:hover {
+	color: #ff0505 !important;
+	transition: all .4s ease-in;
+}
+.js-toggle-mobile-categories.btn-floating.pull-right.p-relative.m-all-half {
+	background-color: #000 !important;
+}
+
+.js-toggle-mobile-categories.btn-floating.pull-right.p-relative.m-all-half svg {
+	fill: #fff !important;
+	cursor: pointer;
+
+}
+
+.js-toggle-mobile-categories.btn-floating.pull-right.p-relative.m-all-half svg:hover {
+	fill: #ff0505 !important;
+	transition: all .4s ease-in;
+}
 
 
 
