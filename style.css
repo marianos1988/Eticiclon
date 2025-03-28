@@ -376,22 +376,36 @@ box-shadow: 15px 15px 40px #8f8d8d, -15px -15px 40px #ccc;
 	transition: all .4s ease-in;
 }
 
-/*Carrito de Compras Mobile*/
+/*Carrito de Compras*/
 
 .modal-xs-dialog {
-	background: rgb(255,0,0);
-    background: linear-gradient(0deg, rgb(32, 59, 180) 7%, rgba(0,0,0,1) 57%);
+	background: #000;
+	background: linear-gradient(90deg, rgb(32, 59, 180) -15%, rgba(0, 0, 0, 1) 33%);
 }
 
-.visible-phone.pull-right.text-right.cart-item-subtotal span,
+
+.js-ajax-cart-panel.js-fullscreen-modal.ajax-cart-container.modal-right.modal-xs.modal-xs-right.modal-xs-right-out {
+	background: #000;
+	background: linear-gradient(90deg, rgb(32, 59, 180) -15%, rgba(0, 0, 0, 1) 33%);
+}
+
+.js-cart-item-subtotal,
+.text-right.pull-right.cart-subtotal-header p,
+.pull-left p,
+.span8 .text-uppercase,
+.visible-phone.pull-right.text-right.cart-item-subtotal .js-cart-item-subtotal.h6-xs,
 .h6-xs span,
 .js-toggle-cart.js-fullscreen-modal-close.visible-phone.modal-xs-header span,
 .js-toggle-cart.js-fullscreen-modal-close.visible-phone.modal-xs-header svg {
 	color: #fff;
-	fill:#fff;
-	text-decoration: none;
+	fill:#fff
 }
 
+.m-top-half.m-bottom-half.text-left.pull-left.hidden-phone {
+	color: #807f7f !important;
+}
+
+.m-top-half.m-bottom-half.text-left.pull-left.hidden-phone:hover,
 .h6-xs span:hover,
 .js-toggle-cart.js-fullscreen-modal-close.visible-phone.modal-xs-header span:hover,
 .js-toggle-cart.js-fullscreen-modal-close.visible-phone.modal-xs-header svg:hover {
@@ -399,6 +413,8 @@ box-shadow: 15px 15px 40px #8f8d8d, -15px -15px 40px #ccc;
 	fill:#ff0505;
 	transition: all .4s ease-in;
 }
+
+
 
 .ajax-cart-item-image-col.ajax-cart-item-col img {
 	border-radius: 10px;
@@ -433,6 +449,7 @@ color: #fff;
 
 .js-ajax-cart-submit.pull-right.full-width-xs .pull-right.full-width-xs.btn.btn-primary {
 	border-radius: 10px;
+	background-color: #000;
 	border: 2px solid #fff;
 
 }
@@ -451,6 +468,25 @@ color: #fff;
 
 .m-top.m-bottom-half.pull-left.text-center.full-width.visible-phone.text-uppercase a:hover {
 	color: #ff0505 !important;
+	transition: all .4s ease-in;
+}
+
+.m-top.m-bottom-half.pull-left.text-center.full-width.visible-phone.text-uppercase a {
+	color: #fff !important;
+}
+
+.m-top.m-bottom-half.pull-left.text-center.full-width.visible-phone.text-uppercase a:hover {
+	color:  #ff0505 !important;
+}
+
+.span4 .js-toggle-cart.btn-floating.pull-right.m-top-quarter.m-right-half {
+	border: none;
+	background-color: inherit;
+	fill: #fff;
+}
+
+.span4 .js-toggle-cart.btn-floating.pull-right.m-top-quarter.m-right-half:hover {
+	fill: #ff0505;
 	transition: all .4s ease-in;
 }
 
