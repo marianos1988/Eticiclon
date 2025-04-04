@@ -258,6 +258,7 @@ box-shadow: 15px 15px 40px #8f8d8d, -15px -15px 40px #ccc;
 	fill: #fff;
 }
 
+.hamburger-panel-item.item-with-subitems a,
 .list-items li .hamburger-panel-link.weight-normal {
 	color: #fff;
 	text-decoration: none;
@@ -490,6 +491,22 @@ color: #fff;
 	transition: all .4s ease-in;
 }
 
+
+/* Productos */
+
+.panel.panel-with-header.m-bottom-half div {
+	background: rgb(255,0,0) !important;
+    background: linear-gradient(0deg, rgb(32, 59, 180) 7%, rgba(0,0,0,1) 57%) !important;
+}
+
+div .panel-header.panel-header-sticky {
+	color: rgb(32, 59, 180);
+	font-weight: 800;
+
+}
+
+
+
 /* Footer   */
 
 footer {    
@@ -570,4 +587,53 @@ footer .js-footer-legal.footer-legal.font-small-extra.text-uppercase {
 	color: #ff0505;
 	transition: all .4s ease-in;
 	text-decoration: none !important;
+}
+
+
+/* Productos */
+
+.breadcrumb.m-bottom-half.m-top-half a {
+	 font-weight: 600;
+	 text-decoration: none;
+}
+
+.breadcrumb.m-bottom-half.m-top-half a:hover {
+	transition: all .4s ease-in;
+	color: grey;
+}
+
+
+.breadcrumb.m-bottom-half.m-top-half h1 {
+	font-weight: 900;
+	font-size: large;
+	color: rgb(32, 59, 180) ;
+}
+
+.js-category-controls.category-controls.container-xs.visible-phone.visible-when-content-ready {
+	background: rgb(255,0,0);
+    background: linear-gradient(0deg, rgb(32, 59, 180) 7%, rgba(0,0,0,1) 57%);
+}
+
+
+.js-toggle-mobile-filters.js-fullscreen-modal-open.btn.btn-secondary.btn-smallest.mobile-filters-btn.pull-right.visible-phone.p-relative span,
+.js-toggle-mobile-filters.js-fullscreen-modal-open.btn.btn-secondary.btn-smallest.mobile-filters-btn.pull-right.visible-phone.p-relative svg {
+	color: #fff;
+	fill: #fff;
+
+}
+
+.js-category-controls.category-controls.container-xs.visible-phone.visible-when-content-ready .btn-secondary  {
+	border: #fff 1px solid;
+}
+
+.js-toggle-mobile-filters.js-fullscreen-modal-open.btn.btn-secondary.btn-smallest.mobile-filters-btn.pull-right.visible-phone.p-relative span:hover,
+.js-toggle-mobile-filters.js-fullscreen-modal-open.btn.btn-secondary.btn-smallest.mobile-filters-btn.pull-right.visible-phone.p-relative svg:hover {
+	color: #ff0505;
+	fill: #ff0505;
+	transition: all .4s ease-in;
+}
+
+.js-category-controls.category-controls.container-xs.visible-phone.visible-when-content-ready .btn-secondary:hover {
+	border: #ff0505 1px solid;
+	transition: all .4s ease-in;
 }
